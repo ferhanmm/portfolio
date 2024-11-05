@@ -13,7 +13,7 @@ export default function Navbar() {
         </Link>
 
         <Link href="/about">
-          About
+          Home
         </Link>
 
         <Link href="/projects">
