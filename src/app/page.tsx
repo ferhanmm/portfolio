@@ -1,19 +1,18 @@
-
-
 export default function Home() {
 
   return (
+    <>
     <div className="min-h-screen flex items-center justify-center bg-gray-100 text-gray-800">
-      <div className="w-96 h-56 bg-white shadow-md overflow-hidden font-['IBM_Plex_Mono']">
+      <div className="w-96 h-56 bg-white shadow-md overflow-hidden">
           <div className="flex flex-row h-full">
 
-              {/* Left Section (1/3) */}
-              <div className="w-1/3 p-4 flex items-center justify-center">
-                <span className="text-5xl font-regular">FM</span>
+              {/* Left Section (1/2) */}
+              <div className="w-1/2 flex items-center justify-center">
+                <span className="text-6xl font-regular">FM</span>
               </div>
 
-              {/* Right Section (2/3) */}
-              <div className="w-2/3 flex flex-col justify-center">
+              {/* Right Section (1/2) */}
+              <div className="w-1/2 flex flex-col justify-center">
                 <div>
                   <span className="text-md font-medium block">Ferhan Moton</span>
                   <span className="text-xs font-regular italic block">IAM Engineer</span>
@@ -21,7 +20,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <span className="text-xs font-regular block">+123-456-7890</span>
+                  <span className="text-xs font-regular block">832-713-8006</span>
                   <span className="text-xs font-regular block">123 Main St, Anytown, USA</span>
                   <span className="text-xs font-regular block">ferhanmm@email.com</span>
                 </div>
@@ -30,5 +29,6 @@ export default function Home() {
           </div>
       </div>
     </div>
+  </>
   );
 }
