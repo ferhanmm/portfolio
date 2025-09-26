@@ -1,30 +1,27 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <div className="min-h-screen flex items-center justify-center bg-gray-100 text-gray-800">
         <div className="w-96 h-56 bg-white shadow-md overflow-hidden relative">
           <div className="flex flex-row h-full">
-            {/* Left Section (1/2) */}
-            <div className="w-1/2 flex items-center justify-center">
-              <span className="text-6xl font-regular">FM</span>
+
+            {/* About Section */}
+            <div className="flex flex-col justify-center items-center w-full p-4">
+              <span className="text-xs font-regular text-center pb-2">IT Engineer who enjoys creating simple, reliable solutions and sharing knowledge to help others succeed.</span>
+
+              <span className="text-xs font-regular text-left">A few things about me:</span>
+
+              <ul className="text-xs font-regular text-left list-disc list-inside">
+                <li>Enjoy tinkering with self-hosted projects and new tools</li>
+                <li>Comfortable diving into both day-to-day support and long-term improvements</li>
+                <li>Big believer in clear documentation and teamwork</li>
+                <li>Always curious, always learning</li>
+              </ul>
+
             </div>
 
-            {/* Right Section (1/2) */}
-            <div className="w-1/2 flex flex-col justify-center">
-              <div>
-                <span className="text-md font-medium block">Ferhan Moton</span>
-                <span className="text-xs font-regular italic block">IAM Engineer</span>
-                <br />
-              </div>
-
-              <div>
-                <span className="text-xs font-regular block">832-713-8006</span>
-                <span className="text-xs font-regular block">123 Main St, Anytown, USA</span>
-                <span className="text-xs font-regular block">ferhanmm@email.com</span>
-              </div>
-            </div>
           </div>
 
           {/* Footer Links - Absolutely positioned */}
